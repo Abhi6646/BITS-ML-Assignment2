@@ -1,20 +1,20 @@
 # <Your project title>
 
 ## a. Problem statement
-<The goal of this project is to predict a person's obesity level from their eating habits, physical condition and basic body measurements. This is a multi-class classification problem with 7 classes, ranging from Insufficient Weight to Obesity Type III. Five classifiers (Logistic Regression, Decision Tree, KNN, Naive Bayes and SVM) are trained on the same dataset, compared on six metrics, and exposed through an interactive Streamlit app.>
+The goal of this project is to predict a person's obesity level from their eating habits, physical condition and basic body measurements. This is a multi-class classification problem with 7 classes, ranging from Insufficient Weight to Obesity Type III. Five classifiers (Logistic Regression, Decision Tree, KNN, Naive Bayes and SVM) are trained on the same dataset, compared on six metrics, and exposed through an interactive Streamlit app.
 
 ## b. Dataset description  [1 mark]
-- **Source:** <[Kaggle / UCI link](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition)>
-- **Instances:** <2111>   
--**Features:** <16 input features with one target column>   
--**Target:** <n'NObeyesdad', with 7 classes: Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II and Obesity Type III. The classes are fairly balanced.>
-- **Feature types:** <a mix of numeric features (Age, Height, Weight, FCVC, NCP, CH2O, FAF, TUE) and categorical features (Gender, family_history_with_overweight, FAVC, CAEC, SMOKE, SCC, CALC, MTRANS).>
-- **Preprocessing:** <missing numeric values are filled with the median and scaled with StandardScaler. Categorical features are imputed with the most frequent value and one-hot encoded. All preprocessing is part of a scikit-learn Pipeline saved together with each model, so the Streamlit app can take a raw CSV directly.>
+- **Source:** [Kaggle / UCI link](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition)
+- **Instances:** 2111
+- **Features:** 16 input features with one target column  
+- **Target:** n'NObeyesdad', with 7 classes: Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II and Obesity Type III. The classes are fairly balanced.
+- **Feature types:** a mix of numeric features (Age, Height, Weight, FCVC, NCP, CH2O, FAF, TUE) and categorical features (Gender, family_history_with_overweight, FAVC, CAEC, SMOKE, SCC, CALC, MTRANS).
+- **Preprocessing:** missing numeric values are filled with the median and scaled with StandardScaler. Categorical features are imputed with the most frequent value and one-hot encoded. All preprocessing is part of a scikit-learn Pipeline saved together with each model, so the Streamlit app can take a raw CSV directly.
 
 ## c. GitHub repository  [1 mark]
 <https://github.com/Abhi6646/BITS-ML-Assignment2>
 
-Live app: <https://<your-app>.streamlit.app>
+Live app: 
 
 ## d. Models used  [5 marks]
 
