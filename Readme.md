@@ -14,7 +14,7 @@ The goal of this project is to predict a person's obesity level from their eatin
 ## c. GitHub repository
 <https://github.com/Abhi6646/BITS-ML-Assignment2>
 
-Live app: 
+Live app: <https://bits-ml-assignment2-obesityprediction.streamlit.app/>
 
 ## d. Models used
 
